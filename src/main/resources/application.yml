@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "Demo modulith recursive"
+
+  data:
+    mongodb:
+      uri: "mongodb://demo-modulith-recursive-mongo-user:demo-modulith-recursive-mongo-password@localhost:27017/demo-modulith-recursive-db"
+
+  modulith:
+    republish-outstanding-events-on-restart: true
